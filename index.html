@@ -1,1 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Trainer a Domicilio</title>
 
+  <!-- SEO básico -->
+  <meta name="description" content="Personal trainer a domicilio. Entrenamientos personalizados en casa, adaptados a tu nivel y objetivos." />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #0e0e0e;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    header {
+      background: linear-gradient(180deg, rgba(0,0,0,0.9), rgba(0,0,0,0.6)),
+                  url('https://images.unsplash.com/photo-1599058917212-d750089bc07d') center/cover no-repeat;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 0 8%;
+    }
+
+    .hero {
+      max-width: 600px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #ddd;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #25D366;
+      color: #000;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: transform 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 80px 8%;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      font-size: 1.3rem;
+    }
+
+    .card p {
+      color: #ccc;
+      font-size: 0.95rem;
+    }
+
+    .about {
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .about p {
+      color: #ccc;
+      font-size: 1rem;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #000;
+      padding: 40px 8%;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      color: #000;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+    <div class="hero">
+      <h1>Personal Trainer a Domicilio</h1>
+      <p>Entrenamientos personalizados en casa, adaptados a tu nivel, objetivos y horarios.</p>
+      <a class="btn" href="https://wa.me/569XXXXXXXX" target="_blank">Hablar por WhatsApp</a>
+    </div>
+  </header>
+
+  <!-- SERVICIOS -->
+  <section>
+    <h2 class="section-title">Servicios</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Entrenamiento Personalizado</h3>
+        <p>Planes adaptados a tu condición física y metas.</p>
+      </div>
+      <div class="card">
+        <h3>Bajar de Peso</h3>
+        <p>Entrenamientos enfocados en quema de grasa.</p>
+      </div>
+      <div class="card">
+        <h3>Tonificación y Fuerza</h3>
+        <p>Mejora tu físico sin ir al gimnasio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section>
+    <h2 class="section-title">Sobre mí</h2>
+    <div class="about">
+      <p>
+        Soy entrenador personal con años de experiencia ayudando a personas
+        a mejorar su condición física desde la comodidad de su hogar.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Personal Trainer a Domicilio · Todos los derechos reservados
+  </footer>
+
+  <!-- BOTÓN WHATSAPP -->
+  <a class="whatsapp-float" href="https://wa.me/569XXXXXXXX" target="_blank">💬</a>
+
+</body>
+</html>
